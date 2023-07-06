@@ -10,6 +10,7 @@ import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 
 import presentation from "@/data/presentation";
 import projects from "@/data/projects";
+import { SITE_BASE } from "@/data/config";
 
 const posts = await getCollection("posts");
 ---
@@ -28,7 +29,7 @@ const posts = await getCollection("posts");
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Latest posts</h3>
-        <Link href="/posts" label="See all posts" isUnderline target="_self" />
+        <Link href={`${SITE_BASE}posts`} label="See all posts" isUnderline target="_self" />
       </header>
       {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
 

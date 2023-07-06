@@ -1,2 +1,4 @@
 export const SITE_URL = 'https://gustavod5.github.io';
-export const SITE_BASE = '/garden';
+
+// import.meta.env.NODE_ENV === 'development' ? '/' :
+export const SITE_BASE = '/garden/';

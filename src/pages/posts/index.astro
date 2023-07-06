@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
+import { SITE_BASE } from "@/data/config";
 
 const posts = await getCollection("posts");
 ---
@@ -15,7 +16,7 @@ const posts = await getCollection("posts");
         posts.map((post) => (
           <a
             class="group flex flex-col gap-2 border-t border-neutral-700 py-4 transition-all hover:text-neutral-100"
-            href={`/posts/${post.slug}`}
+            href={`${SITE_BASE}posts/${post.slug}`}
           >
             <div class="flex w-full items-center justify-between">
               <h2 class="text-lg">{post.data.title}</h2>
