@@ -1,3 +1,7 @@
 export default function formatDate(date: Date) {
-  return new Intl.DateTimeFormat("en-GB").format(date);
+  return new Intl.DateTimeFormat('pt-BR')
+    .format(date)
+    .split('/')
+    .reverse()
+    .join('-');
 }

@@ -1,6 +1,6 @@
 ---
 title: "Aprenda em público"
-publishedAt: 2023-07-11
+publishedAt: 2023-07-11T12:00:00Z
 description: "Aprender em público é uma forma de se destacar para os outros profissionalmente enquanto você ajuda as pessoas que vão aprender a mesma coisa depois de você"
 slug: "aprenda-em-publico"
 isPublished: true

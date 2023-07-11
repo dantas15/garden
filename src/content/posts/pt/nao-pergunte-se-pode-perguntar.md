@@ -1,6 +1,6 @@
 ---
 title: "Não pergunte se pode perguntar"
-publishedAt: 2023-07-11
+publishedAt: 2023-07-11T12:00:00Z
 description: "Saiba como fazer a pergunta certa para receber a resposta certa "
 slug: "nao-pergunte-se-pode-perguntar"
 isPublished: true
