@@ -6,6 +6,7 @@ const postSchema = z.object({
   description: z.string(),
   isPublished: z.boolean(),
   isDraft: z.boolean().default(false),
+  featured: z.boolean().default(false),
 });
 
 const postsCollection = defineCollection({

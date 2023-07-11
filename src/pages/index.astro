@@ -1,18 +1,28 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection } from 'astro:content';
 
-import Layout from "@/layouts/Layout.astro";
-import SocialLinks from "@/components/SocialLinks.astro";
-import PostCard from "@/components/PostCard.astro";
-import ProjectCard from "@/components/ProjectCard.astro";
-import Link from "@/components/shared/Link.astro";
-import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
+import Layout from '@/layouts/Layout.astro';
+import SocialLinks from '@/components/SocialLinks.astro';
+import PostCard from '@/components/PostCard.astro';
+import ProjectCard from '@/components/ProjectCard.astro';
+import Link from '@/components/shared/Link.astro';
+import convertAsteriskToStrongTag from '@/utils/convertAsteriskToStrongTag';
 
-import presentation from "@/data/presentation";
-import projects from "@/data/projects";
-import { SITE_BASE } from "@/data/config";
+import presentation from '@/data/presentation';
+import projects from '@/data/projects';
+import { SITE_BASE } from '@/data/config';
 
-const posts = await getCollection("posts");
+// Filters and then sorts featured projects by date
+const posts = (
+  await getCollection('posts', (post) => post.data.isPublished)
+).sort((a, b) => {
+  if (a.data.featured && !b.data.featured) {
+    return -1;
+  } else if (!a.data.featured && b.data.featured) {
+    return 1;
+  }
+  return b.data.publishedAt.getTime() - a.data.publishedAt.getTime();
+});
 ---
 
 <Layout>
@@ -29,7 +39,12 @@ const posts = await getCollection("posts");
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">Latest posts</h3>
-        <Link href={`${SITE_BASE}posts`} label="See all posts" isUnderline target="_self" />
+        <Link
+          href={`${SITE_BASE}posts`}
+          label="See all posts"
+          isUnderline
+          target="_self"
+        />
       </header>
       {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
 
