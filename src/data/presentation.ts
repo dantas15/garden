@@ -22,7 +22,7 @@ const presentation: Presentation = {
     },
     {
       label: 'Github',
-      link: 'https://github.com/gustavod5',
+      link: 'https://github.com/xstav',
     },
   ],
 };
