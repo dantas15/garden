@@ -17,8 +17,12 @@ const presentation: Presentation = {
     "I'm a *software developer*, computer science student and <i>philosopher</i>, based in <em>*Brazil* 🇧🇷</em> ",
   socials: [
     {
-      label: 'Linktree (all my links)',
+      label: 'All my links)',
       link: 'https://linktr.ee/gusgalote',
+    },
+    {
+      label: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/gustavo-dantas-galote-3394661b7//',
     },
     {
       label: 'Github',
