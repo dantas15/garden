@@ -17,16 +17,16 @@ const presentation: Presentation = {
     "I'm a *software developer*, computer science student and <i>philosopher</i>, based in <em>*Brazil* 🇧🇷</em> ",
   socials: [
     {
-      label: 'All my links)',
-      link: 'https://linktr.ee/gusgalote',
+      label: 'All my links',
+      link: 'https://bento.me/dantas',
     },
     {
       label: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/gustavo-dantas-galote-3394661b7//',
+      link: 'https://www.linkedin.com/in/gustavo-dantas-galote-3394661b7/',
     },
     {
       label: 'Github',
-      link: 'https://github.com/xstav',
+      link: 'https://github.com/dantas15',
     },
   ],
 };

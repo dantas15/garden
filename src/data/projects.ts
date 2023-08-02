@@ -33,7 +33,7 @@ const projects: Project[] = [
       'Sign In with Google',
       'zod',
     ],
-    link: 'https://github.com/gustavod5/eventify-compjr',
+    link: 'https://github.com/dantas15/eventify-compjr',
   },
 ];
 
