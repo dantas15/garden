@@ -22,7 +22,7 @@ const presentation: Presentation = {
     },
     {
       label: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/gustavo-dantas-galote-3394661b7/',
+      link: 'https://www.linkedin.com/in/gustavo-dantas-galote/',
     },
     {
       label: 'Github',
