@@ -8,6 +8,7 @@ const TECHS = [
   'NodeJS',
   'MongoDB',
   'Express',
+  'AdonisJS'
   'koa',
   'VueJS',
   'Sign In with Google',
@@ -22,6 +23,16 @@ export type Project = {
 };
 
 const projects: Project[] = [
+  {
+    title: 'Simple timer',
+    techs: ['ReactJS', 'TypeScript', 'zod'],
+    link: 'https://github.com/dantas15/timer-react-ts',
+  },
+  {
+    title: 'Full-Stack Image upload',
+    techs: ['ReactJS', 'TypeScript', 'NodeJS', 'AdonisJS'],
+    link: 'https://github.com/dantas15/image-upload-node-react',
+  },
   {
     title: 'Eventify',
     techs: [
