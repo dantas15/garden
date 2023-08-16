@@ -8,7 +8,7 @@ const TECHS = [
   'NodeJS',
   'MongoDB',
   'Express',
-  'AdonisJS'
+  'AdonisJS',
   'koa',
   'VueJS',
   'Sign In with Google',
