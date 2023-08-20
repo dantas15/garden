@@ -1,7 +1,7 @@
-import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import sitemap from '@astrojs/sitemap';
-import { SITE_BASE, SITE_URL } from './src/data/config';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
+import sitemap from "@astrojs/sitemap";
+import { SITE_BASE, SITE_URL } from "./src/data/config";
 
 import relativeLinks from "astro-relative-links";
 
@@ -11,10 +11,10 @@ export default defineConfig({
   site: SITE_URL,
   base: SITE_BASE,
   markdown: {
-    syntaxHighlight: 'shiki',
+    syntaxHighlight: "shiki",
     shikiConfig: {
-      theme: 'material-theme',
-      wrap: false
-    }
-  }
+      theme: "material-theme",
+      wrap: false,
+    },
+  },
 });
