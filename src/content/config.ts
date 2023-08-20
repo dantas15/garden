@@ -1,8 +1,8 @@
-import { defineCollection, z } from 'astro:content';
-import { postSchema } from '@/types/post';
+import { defineCollection, z } from "astro:content";
+import { postSchema } from "@/types/post";
 
 const postsCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: postSchema,
 });
 

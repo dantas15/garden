@@ -22,11 +22,11 @@ Alguém que sabe de JavaScript
 está disposto a investigar meu problema,
 seja ele qual for.
 Ou se você nem sabe de JavaScript
-mas se importa em me responder? 
+mas se importa em me responder?
 ```
 
-- Normalmente, as pessoas que realmente *****sabem***** de JavaScript podem não admitir
-- Ou seja, quando você faz essa pergunta, você está perguntando muito mais do que você *acha* que está perguntando
+- Normalmente, as pessoas que realmente **\***sabem**\*** de JavaScript podem não admitir
+- Ou seja, quando você faz essa pergunta, você está perguntando muito mais do que você _acha_ que está perguntando
 - Principalmente você está terceirizando a responsabilidade de entender seu próprio problema e delegando esta tarefa para as outras pessoas. Em outras palavras, você está querendo dizer isso:
 
 ```
@@ -45,7 +45,7 @@ a não ser que alguém se importe e consiga me responder
 ## TL;DR
 
 - **Como perguntar**
-- Ao invés de perguntar: *“Alguém que sabe de JavaScript?”*
-- Pergunte:*"Como eu resolvo [seu problema] em JavaScript e [outras informações consideradas importantes…]?”*
+- Ao invés de perguntar: _“Alguém que sabe de JavaScript?”_
+- Pergunte:_"Como eu resolvo [seu problema] em JavaScript e [outras informações consideradas importantes…]?”_
 
 ## Referência
