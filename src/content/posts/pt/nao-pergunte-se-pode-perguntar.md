@@ -5,6 +5,7 @@ description: "Saiba como fazer a pergunta certa para receber a resposta certa "
 slug: "nao-pergunte-se-pode-perguntar"
 isPublished: true
 featured: true
+lang: "pt"
 ---
 
 ## Como fazer perguntas

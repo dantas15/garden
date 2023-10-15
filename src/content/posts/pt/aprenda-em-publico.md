@@ -5,6 +5,7 @@ description: "Aprender em público é uma forma de se destacar para os outros pr
 slug: "aprenda-em-publico"
 isPublished: true
 featured: true
+lang: "pt"
 ---
 
 ## Aprenda em público
